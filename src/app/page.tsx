@@ -97,7 +97,7 @@ export default function Home() {
 
     setDealerRevealed(prev => prev.map((rev, i) => i === 1 ? true : rev)); // reveal second card
   
-    let dealer = [...dealerHand];
+    const dealer = [...dealerHand];
     while (calculateTotal(dealer) < 17) { // draws until >=17
       await delay(500);
       dealer.push(drawCard());
