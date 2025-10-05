@@ -2,7 +2,7 @@ name: Jackson Singleton
 
 email: jackson@singleton.id.au
 
-deployed: mac-blackjack-task.vercel.app
+deployed: https://mac-blackjack-task.vercel.app/
 
 sourcecode: https://github.com/jacksonsingleton-081/MAC-blackjack-task.git
 
