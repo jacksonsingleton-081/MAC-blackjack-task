@@ -15,3 +15,7 @@ Although it was my first time using JavaScript to code, and wasn't able to compl
 I would assume having an incomplete task is unfavoured in the selection process but this tryout process has been beneficial to me nonetheless.
 
 Regards.
+
+# MAC-blackjack-task
+
+MAC projects, take home task, blackjack game.
