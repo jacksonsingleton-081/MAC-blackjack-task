@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import React from "react";
+
+type Card = { value: number; display: string;};
 
 export default function Home() {
   const [playerHand, setPlayerHand] = useState<Card[]>([]);
@@ -15,8 +16,6 @@ export default function Home() {
   const [aiRecommendation, setAiRecommendation] = useState<"Hit" | "Stand" | null>(null);
 
   const HAND_WIDTH = 220;
-
-  type Card = { value: number; display: string;};
 
   const drawCard = (): Card => {
     const suits = ["♠️", "♥️", "♦️", "♣️"];
